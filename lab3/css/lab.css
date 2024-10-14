@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #87ae9d;
+    border-width: 3px;
+    background-color: #b9ceb1;
   }
+  #lab3-filestructure-img {
+    width: 500px;
+  }
+  #art101-lab1-6-img {
+    width: 535px;
+  }
+  #lab3-html-img {
+    width: 535px;
+  }
+  

@@ -4,6 +4,29 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+    border: solid 17px #0f2244;
+    background-color: #8facdd;
+}
+h1{ 
+  color: rgb(207, 219, 235); /* change the color of the heading */
+  font-size: 55px; /* change the size of the heading */
+  font-family: monaco;
+  margin-bottom: 20px; /*change the space between heading and bottom paragraph */
+}
+
+h2{ 
+  font-family: monaco; /* changing the content (the titles of the sections) */
+  color: #0f2244;
+}
+
+p{
+  text-indent: 25px; /* indent the paragraph by 50 pixels */
+  font-family: monaco;
+  color: rgb(207, 219, 235);
+  font-size: 15px; /* change the size of paragraph */
+}
+#content {
+  border: dotted; /*border around entire page*/ 
+  border-color: #8facdd;
+  background-color: #0f2244
+}
