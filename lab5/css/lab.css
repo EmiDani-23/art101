@@ -1,9 +1,20 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+h1{
+  font-size: 35px; /* change the size of the heading */
+  font-family: monaco;
+  margin-bottom: 20px; /*change the space between heading and bottom paragraph */
+  color: #593052; 
+  }
+  .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 4px #d8a4dd;
+    background-color: #eac8ee;
+    color: #593052;
+    font-family: monaco;
   }
+#nissan-img {
+  width: 420px;
+}

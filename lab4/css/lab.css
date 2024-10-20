@@ -1,9 +1,28 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+h1{ 
+  font-size: 35px; /* change the size of the heading */
+  font-family: monaco;
+  margin-bottom: 20px; /*change the space between heading and bottom paragraph */
+}
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #fed1d1;
+    background-color: #cd6a6a;
+    color: #ffffff;
+    font-family: monaco;
   }
+  .pseudocode { 
+    border: dotted 2p;  #fed1d1
+    margin-bottom: 5px; 
+    margin-top: 5px; 
+    background-color: #a54a4a;
+    width: 1000px; 
+    color: #ffffff;
+    font-family: monaco;
+  }
+#chess-img {
+  width: 400px;
+}

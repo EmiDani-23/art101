@@ -1,8 +1,24 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Emily Barete <Ebarete@ucsc.edu>
+// Date: October 19, 2024
+// License: Public Domain 
+//
 
-// Constants
+// Define Variables
+make = "Nissan"; 
+model = "Sentra"; 
+color = "Bright red"; 
+year = 2012; 
+
+// Calculate 
+age = 2024 - year; 
+
+//output
+Document.writeln("make: " + make + "<br>");
+Document.writeln("model: " + model + "<br>");
+Document.writeln("color: " + color + "<br>");
+Document.writeln("year: " + year + "<br>");
+Document.writeln("age: " + age + "<br>");
 
 // Functions
 
