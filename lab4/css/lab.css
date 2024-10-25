@@ -26,3 +26,9 @@ h1{
 #chess-img {
   width: 400px;
 }
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #330606;
+  background-color: rgb(112, 5, 14);
+}

@@ -6,6 +6,9 @@ h1{
   font-family: monaco;
   margin-bottom: 20px; /*change the space between heading and bottom paragraph */
   color: #000000; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
   }
   .minor-section {
     padding: 10px;
@@ -13,10 +16,16 @@ h1{
     border: solid 1px #f7af13;
     background-color: #f5d89a;
     font-family: monaco;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
   }
   h2{ 
     font-family: monaco; /* changing the content (the titles of the sections) */
     color: #784f08;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
   }
   
   p{
@@ -24,9 +33,18 @@ h1{
     font-family: monaco;
     color: rgb(121, 91, 30);
     font-size: 15px; /* change the size of paragraph */
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
   }
   #nissan-img {
     width: 250px;
     float: right;
+  }
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #341e0d;
+    background-color: rgb(81, 44, 6);
   }
   

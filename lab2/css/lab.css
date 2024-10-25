@@ -30,3 +30,9 @@ p{
   border-color: #8facdd;
   background-color: #0f2244
 }
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #344a76;
+  background-color: rgb(62, 77, 115);
+}

@@ -17,4 +17,10 @@
   #lab3-html-img {
     width: 535px;
   }
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #8c9a80;
+    background-color: rgb(113, 137, 117);
+  }
   

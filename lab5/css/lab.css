@@ -18,3 +18,9 @@ h1{
 #nissan-img {
   width: 420px;
 }
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #3f1938;
+  background-color: rgb(115, 62, 91);
+}
