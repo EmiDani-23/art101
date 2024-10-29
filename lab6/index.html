@@ -41,20 +41,27 @@
 			</div>
 
 			<div class="minor-section">
-					<h2>Results</h2>
-					<p> My JS code:</p>
-					<div id="output"></div>
-					<div>
-						<h2>Script Output</h2>
-						Getting around: Nissan Sentra, Honda Accord, Rides from My Boyfriend, Rides from My Friends, Rides from My Parents
-						My Main Ride:  {
-							"make" = "Nissan"; 
-  							"model" = "Sentra"; 
- 							"color" = "Bright Red";
-  							"year" = 2012; 
-						}
-						<script src="js/lab.js"></script>
-					</div>				
+				<h2>Results</h2>
+				<p> My JS code:</p>
+				<div id="output"></div>
+				<div>
+					<h2>Script Output</h2>
+					<script>			 
+			myTransport = [ "Nissan Sentra", "Honda Accord", "Rides from My Boyfriend", "Rides from My Friends", "Rides from My Parents"];
+			myMainRide = { 
+				make : "Nissan",		
+				model : "Sentra", 
+				color : "Bright Red", 
+				year : 2012, 
+				age : function() { 
+					return 2024 - this.year;
+					}
+				 }	
+					
+				document.writeln("Getting Around: " + myTransport + "</br>");		
+				document.writeln("My Main Ride: <pre>",
+					JSON.stringify(myMainRide, null, '\t'), "</pre>");	
+					</script>		
 			</div>
 		</section>
 		<nav id="links">
