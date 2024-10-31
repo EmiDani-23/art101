@@ -5,7 +5,7 @@ h1{
   font-size: 35px; /* change the size of the heading */
   font-family: monaco;
   margin-bottom: 20px; /*change the space between heading and bottom paragraph */
-  color: #020f20; 
+  color: #140220; 
   display: block; 
   margin-left: auto;
   margin-right: auto;
@@ -15,8 +15,8 @@ h1{
   .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #122f49;
-    background-color: #d1e9fd;
+    border: solid 1px #371249;
+    background-color: #efd1fd;
     font-family: monaco;
     display: block; 
     margin-left: auto;
@@ -26,7 +26,7 @@ h1{
   }
   h2{ 
     font-family: monaco; /* changing the content (the titles of the sections) */
-    color: #5974a7;
+    color: #8159a7;
     display: block; 
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ h1{
   p{
     text-indent: 25px; /* indent the paragraph by 50 pixels */
     font-family: monaco;
-    color: #5974a7; 
+    color: #8e59a7; 
     font-size: 15px; /* change the size of paragraph */
     display: block; 
     margin-left: auto;
@@ -52,7 +52,7 @@ h1{
   #content {
     margin: 10px;
     padding: 10px;
-    border: solid 1px #7e8891;
-    background-color: #05589c;
+    border: solid 1px #8a7e91;
+    background-color: #5d059c;
   }
   
