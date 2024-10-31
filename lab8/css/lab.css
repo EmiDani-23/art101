@@ -1,0 +1,58 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+h1{
+  font-size: 35px; /* change the size of the heading */
+  font-family: monaco;
+  margin-bottom: 20px; /*change the space between heading and bottom paragraph */
+  color: #020f20; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* Center text within the paragraph */
+  width: 50%;         /* Optional, to control the width of the paragraph */
+  }
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #122f49;
+    background-color: #d1e9fd;
+    font-family: monaco;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Center text within the paragraph */
+    width: 50%;         /* Optional, to control the width of the paragraph */
+  }
+  h2{ 
+    font-family: monaco; /* changing the content (the titles of the sections) */
+    color: #5974a7;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Center text within the paragraph */
+    width: 50%;         /* Optional, to control the width of the paragraph */
+  }
+  
+  p{
+    text-indent: 25px; /* indent the paragraph by 50 pixels */
+    font-family: monaco;
+    color: #5974a7; 
+    font-size: 15px; /* change the size of paragraph */
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Center text within the paragraph */
+    width: 50%;         /* Optional, to control the width of the paragraph */
+  }
+  #nissan-img {
+    width: 250px;
+    float: right;
+  }
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #7e8891;
+    background-color: #05589c;
+  }
+  
