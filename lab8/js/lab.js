@@ -1,4 +1,4 @@
-// index.js - Lab 7 - Functions
+// index.js - Lab 8 - Anon Functions and Callbacks
 // Author: Emily Barete
 // Date: 10/27/24
 
