@@ -19,12 +19,12 @@ $("#button-challenge").click(function() {
 
 // Add button to problems section
 $("#problems").append("<button id='button-problems'>Click Me!</button>");
-$("#button-problems").click(function() {
+    $("#button-problems").click(function() {
     $("#problems").toggleClass("special");
 });
 
 // Add a button to results section
 $("#results").append("<button id='button-results'>Click Me!</button>");
-$("#result-problemss").click(function() {
+    $("#button-results").click(function() {
     $("#results") .toggleClass("special");
 });

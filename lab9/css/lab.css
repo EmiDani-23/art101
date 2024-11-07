@@ -5,7 +5,7 @@ h1{
   font-size: 35px; /* change the size of the heading */
   font-family: monaco;
   margin-bottom: 20px; /*change the space between heading and bottom paragraph */
-  color: #f6b4ed; 
+  color: #4c0643; 
   display: block; 
   margin-left: auto;
   margin-right: auto;
@@ -15,7 +15,7 @@ h1{
   .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 4px #000000;
+    border: dotted 4px #9494ec;
     background-color: #31092c;
     font-family: monaco;
     display: block; 
@@ -24,7 +24,7 @@ h1{
     text-align: center; /* Center text within the paragraph */
     width: 50%;         /* Optional, to control the width of the paragraph */
   }
-  h2{ 
+  h2 { 
     font-family: monaco; /* changing the content (the titles of the sections) */
     color: #f6b4ed;
     display: block; 
@@ -34,7 +34,7 @@ h1{
     width: 50%;         /* Optional, to control the width of the paragraph */
   }
   
-  p{
+  p {
     text-indent: 25px; /* indent the paragraph by 50 pixels */
     font-family: monaco;
     color: #f6b4ed; 
@@ -45,14 +45,10 @@ h1{
     text-align: center; /* Center text within the paragraph */
     width: 50%;         /* Optional, to control the width of the paragraph */
   }
-  #nissan-img {
-    width: 250px;
-    float: right;
-  }
-  #content {
-    margin: 10px;
-    padding: 10px;
-    border: solid 1px #380832;
-    background-color: #893e7f;
+
+  .special {
+    font-weight: bold; 
+    color: #31092c;
+    background-color: pink;
   }
   
